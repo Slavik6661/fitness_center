@@ -104,7 +104,7 @@ const TariffsPage = () => {
             className="ml-[20px] pb-[25px]"
           />
           <p
-            className="w-full max-w-[445px] py-[18px] pr-[20px] font-normal text-base leading-[130%] tracking-[0px]font-family: Montserrat
+            className="w-full max-w-[445px] py-[18px] pr-[20px] text-white font-normal text-base leading-[130%] tracking-[0px]font-family: Montserrat
             font-style: Regular
             leading-trim: NONE
             max-sm:text-[12px]

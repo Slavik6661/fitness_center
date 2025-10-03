@@ -43,7 +43,7 @@ const Header = () => {
 
         <div
           className={`font-bold text-[40px] text-[#FFBB00] leading-[110%] tracking-[0%] uppercase
-        font-family: Raleway
+        timer
         font-style: Bold
         leading-trim: NONE
         font-variant-numeric-figure: lining-nums

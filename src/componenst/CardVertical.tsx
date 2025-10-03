@@ -63,10 +63,10 @@ const CardVertical: FC<CardProps> = ({
         font-style: Medium;
         leading-trim: NONE"
       >
-        {isBest && "ХИТ!"}
+        {isBest && "хит!"}
       </div>
       <div
-        className="absolute top-0 left-[15%] px-2 py-[5px] font-medium text-[22px] rounded-[0px_0px_8px_8px] bg-[#FD5656] leading-[130%] tracking-[0%];
+        className="absolute top-0 left-[15%] px-2 py-[5px] font-medium text-[22px] rounded-[0px_0px_8px_8px] text-white bg-[#FD5656] leading-[130%] tracking-[0%];
         font-family: Gilroy;
         font-style: Medium;
         leading-trim: NONE;"
@@ -75,7 +75,7 @@ const CardVertical: FC<CardProps> = ({
       </div>
       <div className="flex flex-col items-center">
         <p
-          className="font-medium text-[26px] leading-[120%] tracking-[0%] mb-[30px] mt-[32px]
+          className="font-medium text-[26px] text-white leading-[120%] tracking-[0%] mb-[30px] mt-[32px]
           font-family: Montserrat;
           font-style: Medium;
           leading-trim: NONE;"
@@ -120,13 +120,13 @@ const CardVertical: FC<CardProps> = ({
           ${!showOldPrice && startExitAnim ? "animate-slide-down" : ""}
           `}
         >
-          {discountActive ? fullPrice : price} ₽
+          {discountActive ? `${fullPrice} ₽` : ""}
         </p>
       </div>
 
       <div className="flex">
         <p
-          className={`w-full max-w-[328px] h-[62px] font-normal text-base leading-[130%] tracking-[0%] px-[20px] 
+          className={`w-full max-w-[328px] h-[62px] text-white font-normal text-base leading-[130%] tracking-[0%] px-[20px] 
           font-family: Montserrat
           font-style: Regular
           leading-trim: NONE

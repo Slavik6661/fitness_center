@@ -72,7 +72,7 @@ const Card: FC<CardProps> = ({
       </div>
       <div
         className="absolute top-0 left-[5%] px-2 py-[5px] font-medium text-[22px] rounded-[0px_0px_8px_8px]
-        bg-[#FD5656] leading-[130%] tracking-[0%]
+        bg-[#FD5656] leading-[130%] tracking-[0%] text-white
         font-family: Gilroy
         font-style: Medium
         leading-trim: NONE
@@ -86,7 +86,7 @@ const Card: FC<CardProps> = ({
       </div>
       <div className="flex flex-col items-start mt-[10px]">
         <p
-          className={`font-medium text-[26px] leading-[120%] tracking-[0%]
+          className={`font-medium text-[26px] text-white leading-[120%] tracking-[0%]
           font-family: Montserrat
           font-style: Medium
           leading-trim: NONE
@@ -152,7 +152,7 @@ const Card: FC<CardProps> = ({
 
       <div className="flex items-center">
         <p
-          className="w-full max-w-[328px] h-[62px] font-normal text-base leading-[130%] tracking-[0%]
+          className="w-full max-w-[328px] h-[62px] text-white font-normal text-base leading-[130%] tracking-[0%]
           font-family: Montserrat
           font-style: Regular
           leading-trim: NONE
